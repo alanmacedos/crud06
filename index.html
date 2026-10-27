@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOD</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main>
+
+        <div id="divMood">
+
+            <h1>MOOD today</h1>
+
+            <form id="form">
+
+                <label for="name">Nome </label>
+                <input id="name" type="text" required>
+
+                <label for="mood">Seu humor hoje</label>
+                <select id="mood" required>
+
+                    <option value="" selected disabled>Selecione seu mood</option>
+                    <option value="feliz">Feliz</option>
+                    <option value="triste">Ttriste</option>
+
+                </select>
+                
+                <button id="submit" type="submit">Confirma</button>
+
+            </form>
+
+        </div>
+
+        <div id="divResults">
+
+                <h1>MOODS de hoje</h1>
+
+                <ul id="moods"></ul>
+
+        </div>
+
+    </main>
+
+    <script type="module" src="./main.js"></script>
+    
+</body>
+</html>
